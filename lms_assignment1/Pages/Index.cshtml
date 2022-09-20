@@ -3,9 +3,30 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="js/site.js"></script>
+        <meta charset="utf-8" />
+    </head>
 
-<div class="text-center">
-    <h1 id="heading_id" class="display-4 heading_class" onmouseover="changeColor()">This text should change colors when moused over.</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sY9DY8DaM1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+    <body>
+        <div class="text-center">
+            <h1 id="heading_id" class="display-4 heading_class" onmouseover="changeColor()">This text should change colors when moused over.</h1>
+        </div>
+
+        <p>
+            <button onclick="myMove()">Click here</button>
+        </p>
+
+        <div id="animation_div_container">
+        <div id="animation_divA"></div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sY9DY8DaM1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+</html>

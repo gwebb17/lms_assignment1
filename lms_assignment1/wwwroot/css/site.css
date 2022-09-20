@@ -74,3 +74,18 @@ body {
 .heading_class {
     color:purple;
 }
+
+
+#animation_div_container {
+    position:relative;
+    height:400px;
+    width:400px;
+    background:silver;
+}
+
+#animation_divA {
+    position:absolute;
+    width:50px;
+    height:50px;
+    background-color:black;
+}
